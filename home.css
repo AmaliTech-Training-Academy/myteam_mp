@@ -1,0 +1,34 @@
+*{    
+    margin: 0;
+    padding: 0;
+    /* font-family: barlow; */
+}
+.page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;   
+}
+.nav{
+    width: 80%;
+    margin-top: 5rem;
+    background-color: blue;
+    display: flex;
+    height: 2rem;
+}
+.nav1{
+    position: relative;
+    justify-content: space-between;
+    left: 20rem;
+}
+a{
+    width: 5rem;
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    margin-right: 2rem;
+}
+
