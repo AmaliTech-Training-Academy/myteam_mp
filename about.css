@@ -200,6 +200,11 @@ body {
     -o-border-radius: 28px;
 }
 
+.cross-svg:hover {
+    cursor: pointer;
+    background-color: #79C8C7;
+}
+
 .box h2 {
     height: 28px;
     width: 18.875rem;
@@ -228,7 +233,12 @@ body {
     margin-left: 141px;
     margin-top: 24px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.social-svg :hover {
+    cursor: pointer;
+    fill: #F67E7E;
 }
 
 .close-svg {
@@ -241,6 +251,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.close-svg:hover {
+    cursor: pointer;
+    background-color: #F67E7E;
+}
+
+.wrapper-tablet {
+    display: none;
 }
 
 .square-svg {
@@ -377,4 +396,106 @@ body {
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.6;
+}
+
+@media  only screen and (max-width:768px) and (min-width:480px) {
+
+    .page{
+        width: 100%;
+        height: 100%;
+    }
+    .head{
+        width: 100%;
+        height: 556px;
+    }
+    .nav-header{
+        width: 90%;
+        margin: 4rem 2.5rem;
+    }
+    .hero{
+        width: 683px;
+        height: 220px;
+        margin-left: 70px;
+    }
+    .about h1{
+        width: 683px;
+        height: 56px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .rect-svg{
+        display: none;
+    }
+    .content-head{
+        width: 440px;
+        height: 140px;
+        margin-left: -650px;
+        margin-top: 120px;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .circle-svg{
+        margin-top: 170px;
+        margin-left: -150px;
+    }
+    .layout{
+        width: 100%;
+        height: 1219px;
+    }
+    .meet{
+        margin-top: 90px;
+        margin-left: -80px;
+        font-size: 32px;
+    }
+    .circle-svg-1{
+        margin-top: -137px;
+    }
+    .wrapper{
+        display: none;
+    }
+    .wrapper-tablet{
+        display: inline;
+        margin-top: 64px;
+        text-align: center;        
+    }
+    .container{
+        justify-content: space-between;
+        margin: 97px;
+        margin-top: -30px;
+    }
+    .box{
+        height: 253px;
+        width: 17.563rem;
+    }
+    .box h3{
+        margin-left: -15px;
+    }
+    
+    .box h4{
+        margin-left: -15px;        
+    }
+    .cross-svg{
+        margin-left: 117px;
+    }
+    .box h2{
+        text-align: center;
+        margin-left: -10px;      
+    }    
+    .box h5{
+        margin-left: 15px;
+        margin-top: 8px;
+        font-weight: 400;
+    }
+    .close-svg{
+        margin-left: 117px;
+    }
+    .square-svg{
+        margin-top: -46px;
+        margin-left: 621px;
+    }
+    .social-svg{
+        margin-left: 115px;
+    }
+
 }
