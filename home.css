@@ -209,6 +209,7 @@ body{
 }
 
 
+
 .third-content{
     width: 100%;
     height: 46.563rem;
@@ -366,11 +367,15 @@ body{
     justify-content: center;
     font-weight: 700;
     font-size: 1rem;
+    /* cursor: pointer; */
 }
 .container-ready .btn-1 :hover{
     background: #012F34;
     cursor: pointer;
+    color: #fff;
 }
+
+
 .ready-svg{
     position: relative;
     top: -4.2rem
@@ -395,6 +400,10 @@ body{
     margin-top: 1.563rem;
     display: flex;
     justify-content: space-between;
+}
+.container-hat :hover{
+    color: #F67E7E;
+    cursor: pointer;   
 }
 
 .container-hat a{
@@ -425,6 +434,9 @@ body{
     margin-top: -5.875rem;
     display: flex;
     justify-content: space-around;
+}
+.handle :hover{
+    fill: #F67E7E;;
 }
 
 .copyright {
@@ -521,6 +533,7 @@ body{
         margin-left: -47rem;
         top: -44.2rem;
     }
+    
 
     .third-content{
         width: 100%;
@@ -707,12 +720,9 @@ body{
         top: 5rem;
     }
     .build-svg-1{
-        display: inline;
         position: relative;
-        top: 5rem;
-        margin-left: -275px;
-        width: 200px;
-        height: 244px;
+        margin-left: -72rem;
+        top: -69.7rem;
     }
 
     .third-content{
@@ -746,6 +756,87 @@ body{
     .fourth-content{
         width: 100%;
         height: 302px;
+    }
+    .container-ready{
+        display: block;
+    }
+
+    .ready h1{
+        position: relative;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        left: -12rem;
+        width: 15rem;
+    }
+    .container-ready button{
+        position: relative;
+        left: -8.5rem;
+        top: 1rem;
+    }
+    .ready-svg{
+        top: 2.2rem;
+    }
+
+    .footer{
+        width: 100%;
+        height: 432px;
+    }
+    .footer-content svg{
+        position: relative;
+        left: -5rem;
+    }
+    .container-hat{
+        position: relative;
+        left: -4.5rem;
+    }
+    .contact-content{
+        position: relative;
+        left: -30.5rem;
+        top: 8rem;
+        text-align: center;
+    }
+    .handle{
+        position: relative;
+        left: -58rem;
+        top: 16rem;
+    }
+    .copyright{
+        position: relative;
+        left: -58rem;
+        top: 15rem;
+    }
+
+}
+
+@media only screen and (max-width:420px)and (min-width: 398px){
+   
+   .svg-2{
+    margin-left: 2rem;
+   }
+   .build-content{
+    width: 327px;
+    display: block;
+    margin-top: 15rem;
+    margin-left: -29rem;
+    text-align: center;
+   }
+    .build-svg-1{
+        margin-left: -69rem;
+    }
+    .real h1{
+        position: relative;
+        font-size: 31px;
+        line-height: 32px;
+        width: 327px;
+        top: 5rem;
+        margin-left: -8rem;
+    }
+    .quote{
+        position: relative;
+        display: block;
+        top: 10rem;
+        left: -8rem;
     }
 }
 
