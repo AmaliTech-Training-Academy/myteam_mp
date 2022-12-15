@@ -788,13 +788,16 @@ body{
     }
     .container-hat{
         position: relative;
-        left: -4.5rem;
+        left: -4rem;
+        width: 7rem;
     }
     .contact-content{
         position: relative;
         left: -30.5rem;
         top: 8rem;
         text-align: center;
+        font-weight: 600;
+        font-size: 25px;
     }
     .handle{
         position: relative;
