@@ -3,12 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
+/* Body */
 body {
     font-family: 'Livvic';
     font-style: normal;
 }
-
+/* main page */
 .page {
     width: 100%;
     height: 100%;
@@ -18,13 +18,13 @@ body {
     align-items: center;
     overflow: hidden;
 }
-
+/* header section */
 .head {
     width: 100%;
     height: 32.313rem;
     background: #014E56;
 }
-
+/* navbar */
 .nav-header {
     width: 80%;    
     height: 3rem;
@@ -50,26 +50,36 @@ body {
     font-size: 1rem;
     color: #FFFFFF;
 }
-
+/* button */
 .button {
     width: 9.563rem;
     height: 3rem;
     border: 2px solid #FFFFFF;
     border-radius: 24px ;
-    color: #FFFFFF;
     background: none;
     font-weight: 700;
     font-size: 1rem;
-    -webkit-border-radius: 24px ;
-    -moz-border-radius: 24px ;
-    -ms-border-radius: 24px ;
-    -o-border-radius: 24px ;
+}
+
+.button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* hover state */
+.button:hover a{
+    cursor: pointer;
+    color: #002529;
+}
+
+.button:hover{
+    background-color: white;
+    cursor: pointer;
 }
 
 .menu-svg {
     display: none;
 }
-
+/* About */
 .hero {
     width: 80%;    
     height: 9.75rem;
@@ -101,12 +111,12 @@ body {
     margin-top: 2.75rem;
     color: #FFFFFF;
 }
-
+/* svg */
 .circle-svg {
-    margin-left: 7.2rem;
+    margin-left: 8.2rem;
     margin-top: 7.6rem;
 }
-
+/* layout section */
 .layout {
     height: 62.625rem;
     width: 100%;
@@ -128,7 +138,7 @@ body {
 .circle-svg-0 {
     display: none;
 }
-
+/* svg */
 .circle-svg-1 {
     margin-top: -188px;
 }
@@ -159,16 +169,12 @@ body {
     width: 21.875rem;
     background-color: #012F34;
 }
-
+/* images */
 .box img {
     width: 6rem;
     margin-top: 2rem;
     border-radius: 3rem;
     border: 2px solid #c4fffe;
-    -webkit-border-radius: 3rem;
-    -moz-border-radius: 3rem;
-    -ms-border-radius: 3rem;
-    -o-border-radius: 3rem;
 }
 
 .box h3 {
@@ -191,7 +197,7 @@ body {
     line-height: 25px;
     color: #FFFFFF;
 }
-
+/* svg */
 .cross-svg {
     width: 3.5rem;
     height: 3.5rem;
@@ -202,10 +208,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    -webkit-border-radius: 28px;
-    -moz-border-radius: 28px;
-    -ms-border-radius: 28px;
-    -o-border-radius: 28px;
 }
 
 .cross-svg:hover {
@@ -234,7 +236,7 @@ body {
     text-align: center;
     color: #FFFFFF;
 }
-
+/* svg */
 .social-svg {
     width: 3.75rem;
     height: 20px;
@@ -248,7 +250,7 @@ body {
     cursor: pointer;
     fill: #F67E7E;
 }
-
+/* svg */
 .close-svg {
     width: 3.5rem;
     height: 56px;
@@ -269,16 +271,20 @@ body {
 .wrapper-tablet {
     display: none;
 }
-
+/* svg */
 .square-svg {
     margin-left: 86rem;
     margin-top: 1.2rem;
 }
-
+/* clients section */
 .content-clients {
     width: 100%;
     height: 437px;
     background:  #012F34;
+}
+
+.circ-svg{
+    display: none;
 }
 
 .container-hay {
@@ -292,7 +298,7 @@ body {
     line-height: 48px;
     color: #FFFFFF;
 }
-
+/* logos */
 .logos-container {
     display: flex;
     width: 68.75rem;
@@ -302,12 +308,11 @@ body {
     text-align: center;
     justify-content: space-between;
 }
-
+/* contact section */
 .content-contact {
     width: 100%;
     height: 200px;
-    background: #F67E7E;
-    
+    background: #F67E7E;    
 }
 
 .contain {
@@ -325,22 +330,36 @@ body {
     line-height: 48px;
     color: #012F34;
 }
-
+/* button */
 .button-1 {
     width: 9.563rem;
     height: 3rem;
     border: 2px solid #012F34;
     border-radius: 24px ;
-    color: #012F34;
     background: none;
     font-weight: 700;
     font-size: 1rem;
 }
 
+.button-1 a{
+    text-decoration: none;
+    color: #012F34;
+}
+
+.button-1:hover a{
+    cursor: pointer;
+    color: #fff;
+}
+
+.button-1:hover{
+    background-color: #012F34;
+    cursor: pointer;
+}
+/* svg */
 .circle-svg-3 {
     margin-top: -68px;
 }
-
+/* footer section */
 .footer {
     width: 100%;
     height: 196px;
@@ -382,7 +401,7 @@ body {
     opacity: 0.6;
     letter-spacing: 1px;
 }
-
+/* social-media svg's */
 .handle {
     width: 6.5rem;
     height: 24px;
@@ -391,7 +410,7 @@ body {
     display: flex;
     justify-content: space-around;
 }
-
+/* copyright */
 .copyright {
     height: 25px;
     width: 15.938rem;
@@ -405,7 +424,7 @@ body {
     mix-blend-mode: normal;
     opacity: 0.6;
 }
-
+/* Tablet responsiveness */
 @media  only screen and (max-width:768px) and (min-width:480px) {
 
     .page{
@@ -421,35 +440,35 @@ body {
         margin: 4rem 2.5rem;
     }
     .hero{
-        width: 683px;
+        width: 42.688rem;
         height: 220px;
-        margin-left: 70px;
+        margin-left: 4.375rem;
     }
     .about h1{
-        width: 683px;
+        width: 42.688rem;
         height: 56px;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
     .rect-svg{
         display: none;
     }
     .content-head{
-        width: 440px;
+        width: 27.5rem;
         height: 140px;
-        margin-left: -650px;
-        margin-top: 120px;
+        margin-left: -40.625rem;
+        margin-top: 7.5rem;
         font-size: 15px;
         font-weight: 600;
         text-align: center;
     }
     .circle-svg{
-        margin-top: 170px;
-        margin-left: -150px;
+        margin-top: 10.625rem;
+        margin-left: -9.375rem;
     }
     .layout{
         width: 100%;
-        height: 1219px;
+        height: 76.188rem;
         z-index: 1;
     }
     .meet{
@@ -523,6 +542,9 @@ body {
     }
     .circle-svg-2 svg{
         margin-top: -100px;
+    }
+    .circ-svg{
+        display: none;
     }
     .container-hay{
         width: 457px;
@@ -598,7 +620,7 @@ body {
         margin-top: -20px;       
     } 
 }
-
+/* Mobile responsiveness */
 @media  only screen and (max-width:480px) and (min-width:320px) {
     .page{
         width: 100%;
@@ -634,16 +656,20 @@ body {
         text-align: center;
     }
     .about h1{
-        margin-top: -30px;
+        margin-top: -50px;
         font-size: 40px;
         margin-left: -10px;
     }
     .content-head{
         width: 320px;
-        margin-top: 40px;
+        margin-top: 10px;
         margin-left: -390px;
         font-size: 15px;
         text-align: center;
+    }
+    .circle-svg{
+        margin-left: -11.8rem;
+        margin-top: 15rem;
     }
     .circle-svg-1{
         display: none;
@@ -652,8 +678,6 @@ body {
         display: inline;
         position: relative;
         top: -8rem;
-        /* margin-left: -11.8rem;
-        margin-top: 15rem; */
     }
     .layout{
         width: 100%;
@@ -694,7 +718,6 @@ body {
     }
     .box h2 {
         position: absolute;
-        /* margin-top: 58px; */
     }    
     .box h5{        
         position: absolute;
@@ -718,8 +741,10 @@ body {
         height: 632px;
     }
     .circle-svg-2{
-        margin-top: -100px;
-        margin-left: -100px;
+        display: none;
+    }
+    .circ-svg{
+        display: inline;
     }
     .container-hay{
         margin-left: -275px;
@@ -806,5 +831,38 @@ body {
     .copyright{
         margin-left: 2rem;
         margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 420px) and (min-width: 398px) {
+    .menu-svg{
+        margin-left: 10rem;
+    }
+    .about{
+        margin-left: 1.5rem;
+    }
+    .circle-svg{
+        margin-left: -10.9rem;
+    }
+    .meet h1{
+        margin-left: 3rem;
+    }
+    .container-2{        
+        margin-left: 2rem;
+    }
+    .square-svg{
+        margin-left: 16.7rem;
+    }
+    .container-hay{
+        margin-left: -16rem;
+    }
+    .logos-container{
+        margin-left: 7.5rem;
+    }
+    .contain{
+        margin-left: 3rem;
+    }
+    .footer-content{
+        margin-left: 2.5rem;
     }
 }
