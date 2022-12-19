@@ -113,7 +113,7 @@ body {
 }
 /* svg */
 .circle-svg {
-    margin-left: 8.2rem;
+    margin-left: 7.2rem;
     margin-top: 7.6rem;
 }
 /* layout section */
@@ -173,7 +173,7 @@ body {
 .box img {
     width: 6rem;
     margin-top: 2rem;
-    border-radius: 3rem;
+    border-radius: 800rem;
     border: 2px solid #c4fffe;
 }
 
