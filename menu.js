@@ -1,17 +1,14 @@
-const menu = document.querySelector('.menu-svg');
-const menuIcon = document.querySelector('.menu-icon');
+const open = document.querySelector(".mob-open");
+const close = document.querySelector(".mob-close");
 
-menuIcon.addEventListener('click',()=>{
-    console.log('Clicked')
-})
+const wrapper = document.querySelector(".mob-wrapper").classList;
 
+open.addEventListener("click",() => {
+    wrapper.toggle("opened");
+    wrapper.toggle("close");
+});
 
-
-function myFunction() {
-  if (menuIcon.style.display === "block") {
-    menu.style.display = "none";
-  } else {
-    menuIcon.style.display = "block";
-  }
-}
-
+close.addEventListener("click",() => {
+    wrapper.toggle("opened");
+    wrapper.toggle("close");
+});
