@@ -1,8 +1,13 @@
 document.addEventListener("DOMContentLoaded",() => {
     console.log("JS ready");
     function validateForm() {
+      var name = document.getElementById("name").value;
       var email = document.getElementById("email").value;
+      var message = document.getElementById("message").value;
+      var name_error = document.getElementById("name_error");
       var email_error = document.getElementById("email_error");
+      var message_error = document.getElementById("message_error");
+      var name_valid = true;
       var email_valid = true;
 
       if (email.trim() === ""){
