@@ -1,6 +1,6 @@
 # myteam_mp | README Guide
 
-![Amalitech](amalitech.jpeg)
+![Amalitech](/assets/amalitech.jpeg)
 
 # Project Discription
 
@@ -41,6 +41,7 @@ HTML, CSS and JAVASCRIPT
 3. Learnt how to design a side bar using JavaScript.
 
 # Participants
+
 [@ericmanu] (https://github.com/ericmanu) <br>
-[@Godbless-Abbew] (https://github.com/Godbless-Abbew)<br>
+[@Godbless-Abbew] (https://github.com/Godbless-Abbew) <br>
 [@kevin68107] (https://github.com/kevin68107)
